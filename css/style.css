@@ -12,6 +12,7 @@
   .jp-header{
     position: fixed;
     background: #fff;
+    width: 100%;
     z-index: 990;
   }
   .jp-title{
@@ -38,7 +39,16 @@
   ul{
     list-style-type: disc;
   }
+  ul li{
+    list-style: none;
+  }
   .jp-title-copy ul li{
     padding: 0 0 0 20px;
+  }
+  .jp-head-logo img{
+    width: 110px;
+  }
+  a{
+    text-decoration: none;
   }
 }
