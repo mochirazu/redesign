@@ -350,7 +350,7 @@ body {
 
   .wrapper-video{
     padding: 20px 0 0;
-    max-width: 555px;
+    max-width: 750px;
   }
   .wrapper-title {
     margin: 30px 0 25px;
@@ -359,7 +359,7 @@ body {
   .title-vid {
     background-image: url('../img/bg-ttl-vid.png');
     background-repeat: no-repeat;
-    max-width: 555px;
+    background-size: cover;
     border-radius: 20px;
 }
 
@@ -411,5 +411,55 @@ body {
   background-color: #c2b4e3;
   padding: 10px;
   border-radius: 15px;
+}
+
+.jv-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-collage-item {
+  flex: 0 0 calc(50% - 16px);
+  display: flex;
+  border: none;
+  margin: 0 0 25px;
+}
+
+.list-youtube {
+  flex-direction: column;
+}
+
+.list-item-img {
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.list-item-img img {
+  max-width: 104%;
+}
+
+.list-item-body {
+  padding: 5px 0;
+}
+
+.list-item-body .list-date {
+  border: none;
+  font-family: 'M PLUS 1', sans-serif;
+  font-size: 14px;
+  color: rgb(119, 119, 119);
+  font-weight: 500;
+  padding: 0;
+}
+
+.list-item-body .list-date p {
+  padding-bottom: 5px;
+}
+
+.list-item-body .list-text a {
+  text-decoration: none;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 12px;
+  color: black;
 }
 }
