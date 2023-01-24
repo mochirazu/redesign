@@ -175,17 +175,12 @@ body {
   }
   
   .jv-wrapper {
-    width: 1024px;
+    width: 100%px;
     max-width: 88%;
-    margin: auto;
-    padding: 40px 0 0;
+    margin-left: 100px;
+    padding: 20px 0 0;
   }
   
-  .wrapper-edit {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-  }
   
    /* swiper news */
    .swiper-news {
@@ -403,6 +398,13 @@ body {
   height: 120%;
   position: absolute;
   z-index: -1;
+}
+
+.video-profil a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Oswald';
 }
 
 .profil-button{
