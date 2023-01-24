@@ -199,7 +199,7 @@ body {
 }
 
 .main-content {
-    width: 70%;
+    width: 60%;
 }
    /* slider news */
    .swiper-news {
@@ -300,19 +300,19 @@ body {
     background-position: center;
   }
  .img-3 {
-    background-image: url('../img/red.jpg');
+    background-image: url('../img/seiyuu.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
  .img-4 {
-    background-image: url('../img/group.jpg');
+    background-image: url('../img/red.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
  .img-5 {
-    background-image: url('../img/seiyuu.jpg');
+    background-image: url('../img/group.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -502,5 +502,80 @@ body {
 
 /*-news-*/
 
+.wrapper-news {
+  padding: 20px 0 0;
+  max-width: 800px;
+}
 
+ .wrapper-ttl {
+  margin: 30px 0 25px;
+  padding: 15px 20px;
+}
+
+.ttl-news {
+  background-image: url('../img/bg-ttl-news.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.ttl-news h2 {
+  color: black;
+  background: url('../img/news.png') no-repeat left center;
+  background-size: auto;
+  padding-left: 70px;
+  font-size: 30px;
+}
+
+.jv-list .list-news {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.news-list-item {
+  width: 100%;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.news-list-item .list-item-body {
+  display: flex;
+  padding: 0;
+}
+
+.news-list-item .list-date {
+  width: 100px;
+  flex-shrink: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.list-date{
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.list-text {
+  padding-top: 5px;
+}
+
+.news-list-item .list-text {
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+ .btn-news {
+  background: linear-gradient(to bottom, #577faf, rgb(57, 57, 161));
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 15px;
+  text-align: center;
+}
+.btn-news a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Roboto' sans-serif;
+}
 }
