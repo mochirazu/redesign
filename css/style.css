@@ -56,7 +56,7 @@ body {
       text-decoration: none;
       color: white;
       word-wrap: break-word;
-      font-size: 12px;
+      font-size: 15px;
       font-family: 'Oswald', sans-serif;
   }
   
@@ -71,7 +71,7 @@ body {
   }
   
   .jv-logo img {
-      width: 100px;
+      width: 70px;
       margin-right: 15px;
   }
   
@@ -166,7 +166,7 @@ body {
     height: 60px;
     display: block;
     position: absolute;
-    top: 135px;
+    top: 115px;
   }
   
   .wrapper {
@@ -192,6 +192,15 @@ body {
     padding: 20px 0 0;
   }
   
+  .wrapper-edit {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.main-content {
+    width: 70%;
+}
    /* slider news */
    .swiper-news {
     width: 1024px;
@@ -414,11 +423,11 @@ body {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Oswald';
+  font-family: 'Oswald' sans-serif;
 }
 
 .profil-button{
-  background-color: #c2b4e3;
+  background: linear-gradient(to bottom, #c2b4e3,#ac69e4);
   padding: 10px;
   border-radius: 15px;
 }
@@ -457,8 +466,8 @@ body {
 
 .list-item-body .list-date {
   border: none;
-  font-family: 'M PLUS 1', sans-serif;
-  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
   color: rgb(119, 119, 119);
   font-weight: 500;
   padding: 0;
@@ -470,13 +479,28 @@ body {
 
 .list-item-body .list-text a {
   text-decoration: none;
-  font-family: 'Mochiy Pop One', sans-serif;
-  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
   color: black;
 }
 
 .btn-vid{
-  background-color: #c2b4e3;
+  background: linear-gradient(to bottom, #c2b4e3, #ac69e4);
+  margin-bottom: 10px;
   padding: 10px;
+  width: 100px;
+  border-radius: 15px;
+  text-align: center;
 }
+
+.btn-vid a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Roboto' sans-serif;
+}
+
+/*-news-*/
+
+
 }
