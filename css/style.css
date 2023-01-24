@@ -15,6 +15,7 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .header {
+    background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -349,4 +350,64 @@ body {
     margin-left: 5px;
     flex-shrink: 0;
   }
+
+  /*- video -*/
+
+  .wrapper-video{
+    padding: 20px 0 0;
+    max-width: 555px;
+  }
+  .wrapper-title {
+    margin: 30px 0 25px;
+    padding: 15px 20px;
+  }
+  .title-vid {
+    background-image: url('../img/bg-ttl-vid.png');
+    background-repeat: no-repeat;
+    max-width: 555px;
+    border-radius: 20px;
+}
+
+.title-vid h2 {
+  color: black;
+  padding-left: 65px;
+  background-image: url('../img/vid.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.title-vid h2 span {
+  color: black;
+  margin-left: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.video-profil {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin: -25px 0 20px;
+}
+
+.video-profil::before {
+  content: '';
+  background-image: url('../img/wave-bg-vid.png');
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100%;
+  height: 120%;
+  position: absolute;
+  z-index: -1;
+}
+
+.profil-button{
+  background-color: #c2b4e3;
+  padding: 10px;
+  border-radius: 15px;
+}
 }
