@@ -625,6 +625,11 @@ body {
   margin: 10px 0 25px;
 }
 
+.article-img img{
+  border: 5px #71cd58 solid;
+  border-radius: 5px;
+}
+
 .list-articles .list-item-img img {
   width: 150px;
 }
@@ -636,8 +641,9 @@ body {
 
 .list-articles .list-text span {
   font-size: 12px;
-  font-family: 'M PLUS 1', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
 
 .btn-articles {
   background: #71cd58;
