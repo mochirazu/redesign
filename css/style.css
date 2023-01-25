@@ -587,13 +587,13 @@ body {
 }
 
 .ttl-articles {
-  background-image: url(../img/bg-ttl-articles.jpg);
+  background-image: url(../img/bg-ttl-artic.jpg);
   background-repeat: no-repeat;
 }
 
 .ttl-articles h2 {
-  color: #71cd58;
-  background: url('../img/icon-feature.png') no-repeat left center;
+  color: white;
+  background: url('../img/feature.png') no-repeat left center;
   background-size: auto;
   padding-left: 50px;
 }
