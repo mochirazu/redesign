@@ -195,7 +195,6 @@ body {
   .wrapper-edit {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
 }
 
 .main-content {
@@ -659,5 +658,164 @@ body {
   text-decoration: none;
   font-size: 15px;
   font-family: 'Roboto' sans-serif;
+}
+
+.side-bar {
+  width: 25%;
+  margin-top: 50px;
+  padding-right: 10px;
+}
+
+.side-bar h3 {
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: solid 2px #214fa9;
+}
+
+.sidebar .search-form {
+  position: relative;
+}
+
+.search-form h3 {
+  font-size: 12px;
+  border-bottom: none;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 8px;
+}
+
+.search-form input[type="text"] {
+  width: 78%;
+  border: solid 1px #ebebeb;
+  border-radius: 4px;
+  height: 35px;
+  padding: 0 20px;
+}
+
+.search-form input[type="submit"] {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: url('../img/icon-search.png') center center no-repeat;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+ /* PR info */
+ .pr-box h3 {
+  background: url('../img/icon-pr.png') left center no-repeat;
+  padding: 10px 0 10px 40px;
+  margin: 20px 0 10px;
+}
+
+.pr-box .pr-banner img {
+  display: block;
+  max-width: 255px;
+  width: 100%;
+}
+
+ /* daily rank */
+ .daily-rank h3 {
+  background: url('../img/icon-rank.png') left center no-repeat;
+  padding: 10px 0 10px 30px;
+  margin: 20px 0 10px;
+}
+
+.daily-rank .jv-list-item {
+  position: relative;
+}
+
+.jv-list.list-feature .jv-list-item {
+  display: flex;
+  border: none;
+  margin: 0 0 25px;
+}
+
+.jv-list-item  {
+  position: relative;
+}
+
+.daily-rank .jv-list.list-feature .jv-list-item .list-item-img img {
+  height: 95px;
+  width: 95px;
+  border-radius: 5px;
+}
+
+.list-text{
+  padding-top: 20px;
+}
+
+.list-text a {
+  font-size: 16px;
+}
+
+.rank img{
+  border: none;
+}
+
+.daily-rank .jv-list-item::after {
+  position: absolute;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  left: -7px;
+  top: -7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.daily-rank .jv-list-item:nth-child(1)::after {
+  content: '1';
+  background: #fc575b;
+}
+
+.daily-rank .jv-list-item:nth-child(2)::after {
+  content: '2';
+  background: #d2b946;
+}
+
+.daily-rank .jv-list-item:nth-child(3)::after {
+  content: '3';
+  background: #7accc8;
+}
+
+
+/* keyword */
+.popular-keyword h3 {
+  background: url('../img/icon-rank.png') left center no-repeat;
+  padding: 10px 0 10px 30px;
+  margin: 20px 0 10px;
+}
+
+.popular-keyword div {
+  width: 85%;
+  border: solid 1px #ebebeb;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.popular-keyword a {
+  color: #666;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.popular-keyword a:hover {
+  text-decoration: underline;
+}
+
+.popular-keyword a::before {
+  content: '#';
+  color: #ac69e4;
 }
 }
