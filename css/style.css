@@ -183,11 +183,12 @@ body {
   .wrapper-body {
     position: relative;
     padding-top: 20px;
+    margin-left: 100px;
   }
   
   .jv-wrapper-body {
-    width: 100%px;
-    max-width: 88%;
+    width: 100%;
+    max-width: 80%;
     margin-left: 100px;
     padding: 20px 0 0;
   }
