@@ -321,7 +321,7 @@ body {
   .text-bottom{
     background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #222858);
     width: 1024px;
-    height: 50px;
+    height: 60px;
   }
   
   .text-bottom {
@@ -335,12 +335,19 @@ body {
     top: 6%;
     right: 26px;
     color: white;
-    font-family: 'Mochiy Pop One';
+    font-family: 'Oswald';
     font-size: 14px;
   }
   
+  .text{
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
   .text a {
     margin-left: 20px;
+    padding-top: 20px;
+    text-align: justify;
     color: white;
   }
 
@@ -360,6 +367,7 @@ body {
     border: solid 3px #fff;
     border-radius: 10px;
     padding: 3px 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 5px;
     flex-shrink: 0;
@@ -520,7 +528,7 @@ body {
 }
 
 .ttl-news h2 {
-  color: black;
+  color: white;
   background: url('../img/news.png') no-repeat left center;
   background-size: auto;
   padding-left: 70px;
@@ -581,7 +589,7 @@ body {
 
 /*article*/
 
-.wrapper-articles {
+.wrapper-article {
   padding-top: 20px 0 0;
   max-width: 800px;
 }
@@ -589,13 +597,17 @@ body {
 .ttl-articles {
   background-image: url(../img/bg-ttl-artic.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
 }
 
 .ttl-articles h2 {
   color: white;
   background: url('../img/feature.png') no-repeat left center;
   background-size: auto;
-  padding-left: 50px;
+  padding-left: 70px;
+  font-size: 30px;
 }
 
 .jv-list .list-articles {
@@ -627,8 +639,19 @@ body {
   font-family: 'M PLUS 1', sans-serif;
 }
 
-.btn-primary a.btn-articles {
+.btn-articles {
   background: #71cd58;
-  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.btn-articles a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Roboto' sans-serif;
 }
 }
