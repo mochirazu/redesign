@@ -847,4 +847,26 @@ body {
   padding-left: 70px;
   font-size: 30px;
 }
+
+.learn img{
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+}
+.btn-learn{
+  background: linear-gradient(to bottom, #fbb04c, #d17722);
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.btn-learn a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Roboto' sans-serif;
+}
 }
