@@ -850,9 +850,9 @@ body {
 
 .learn img{
   border: none;
-  border-radius: 5px;
-  width: 250px;
-  height: 150px;
+  border-radius: 3px;
+  width: 350px;
+  height: 190px;
 }
 .btn-learn{
   background: linear-gradient(to bottom, #fbb04c, #d17722);
