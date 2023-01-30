@@ -635,12 +635,13 @@ body {
 }
 
 .list-articles .list-text p a {
+  font-weight: bold;
   line-height: 1.2;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .list-articles .list-text span {
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -849,7 +850,7 @@ body {
 }
 
 .learn img{
-  border: none;
+  border: 5px #fbb04c solid ;
   border-radius: 3px;
   width: 350px;
   height: 190px;
