@@ -750,7 +750,7 @@ body {
   border-radius: 5px;
 }
 
-.list-text{
+.rank{
   padding-top: 20px;
 }
 
@@ -909,6 +909,27 @@ body {
   padding: 5px;
   border: 2px #f04e4e solid;
   border-radius: 15px;
+}
+
+.exp-list-item{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  max-width: 500px;
+}
+
+.exp-img img{
+  border: none;
+  width: 150px;
+}
+
+.tag a{
+  text-decoration: none;
+  font-family: 'Roboto';
+  color: grey;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-right: 5px;
 }
 
 .btn-exp{
